@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    int budget = 20;
+	    
+	    
+		System.out.println("Can I buy the gift : " + (budget > 30 && budget < 80));
+		
+		int budget1 = budget + 20;
+		
+		System.out.println("Can I buy the gift with extra 20 KD : " + (budget1 > 30 && budget1 < 80));
+	}
+}
